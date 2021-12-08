@@ -49,6 +49,43 @@ header{
     word-wrap: break-word;
     color: rgb(236, 229, 229);
     font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.Section_Info{
+    display: block;
+    margin: auto;
+    align-items: center;
+    width: 800px;
+    text-align: center;
+    text-shadow: 3px 3px 3px #3b3d3d;
+    margin-bottom: 40px;
+    word-wrap: break-word;
+    color: rgb(236, 229, 229);
+    font-size: 18px;
+}
+
+.Section_Info h2{
+    margin-bottom: 10px;
+    color: #6c6d6d;
+}
+
+.Wikipedia_Link{
+    font-size: 21px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(212, 211, 211);
+}
+
+.Wikipedia_Link a{
+    text-decoration: none;
+    color: rgb(212, 211, 211);
+    transition: 0.4s all linear;
+}
+
+.Wikipedia_Link a:hover{
+    color: #4838da;
 }
 
 .footer_border{

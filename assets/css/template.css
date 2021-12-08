@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Julee', cursive;
+}
+
+body{
+    background-color: #0c0d0e;
+}
+
+header{
+    height: 100px;
+    text-shadow: 2px 4px 2px #7c8c92;
+    background-color: rgb(212, 211, 211);
+    display: flex;
+    justify-content: center;
+}
+
+.Tribute_Title{
+    padding: 20px;
+}
+
+.Tribute_Title h1{
+    font-size: 45px;
+}
+
+.Tribute_Title h3{
+    font-size: 20px;
+    text-align: center;
+}
+
+.container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+.Section_Desc{
+    display: block;
+    margin: auto;
+    align-items: center;
+    height: 180px;
+    width: 800px;
+    text-align: center;
+    text-shadow: 3px 3px 3px #3b3d3d;
+    margin-top: 20px;
+    word-wrap: break-word;
+    color: rgb(236, 229, 229);
+    font-size: 18px;
+}
+
+.footer_border{
+    margin: 0 auto;
+    height: 1px;
+    width: 75%;
+    margin-bottom: 10px;
+    background-color: #2b2b2b;
+}
+
+footer .container{
+    color: rgb(212, 211, 211);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    text-align: center;
+    text-shadow: 3px 3px 3px #3b3d3d;
+}
+
+footer a{
+    text-decoration: none;
+    transition: 0.4s all linear;
+    color: rgb(212, 211, 211);
+}
+
+footer a:hover{
+    color: #4838da;
+    text-shadow: 3px 3px 3px #1d1f20;
+}
